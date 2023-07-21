@@ -1,0 +1,25 @@
+.contenedorProductos{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: auto;
+    gap: 100px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px){
+    .contenedorProductos{
+        grid-template-columns: 350px 350px;
+        grid-template-rows: auto;
+        gap: 100px;
+        justify-content: center;
+    }
+} 
+
+@media screen and (max-width: 800px){
+    .contenedorProductos{
+        grid-template-columns: 350px;
+        grid-template-rows: auto;
+        gap: 100px;
+        justify-content: center;
+    }
+} 

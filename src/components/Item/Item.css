@@ -1,0 +1,38 @@
+.card{
+    background: #f0eae0;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card:hover{
+    box-shadow: 0px -1px 26px 0px rgba(75, 88, 79, 0.99);
+
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.card:hover img{
+    transform: scale(0.9);
+}
+
+.card button{
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background: #b4b1ab;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.precio{
+    font-weight: bold;
+}

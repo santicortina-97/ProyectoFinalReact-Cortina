@@ -1,0 +1,39 @@
+.detalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detalle .detalleProducto{
+    background: #f0eae0;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.detalleProducto img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.detalleProducto *{
+    margin-bottom: 15px;
+}
+
+.terminarCompra{
+    text-decoration: none;
+    background-color: #b4b1ab;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
