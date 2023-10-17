@@ -23,10 +23,14 @@ return (
     <div>
         {carrito.map((producto) => (<CartItem key={producto.id} {...producto}/>))}
         <div className="totalCarrito">
-            <h3>Total: ${total}</h3>
-            <h3>Cantidad Total: {cantidadTotal}</h3>
-            <button onClick={() => vaciarCarrito()}>Vaciar Carrito</button>
-            <Link to="/checkout" className="finalizar">Finalizar Compra</Link>
+            <div>
+                <h3>Total: ${total}</h3>
+                <h3>Cantidad Total: {cantidadTotal}</h3>
+            </div>
+            <div className="vaciarFinalizar">
+                <button onClick={() => vaciarCarrito()}>Vaciar Carrito</button>
+                <Link to="/checkout" className="finalizar" style={{textDecoration:"none", color:"black"}}><button>Finalizar Compra</button></Link>
+            </div>
         </div>
     </div>
 )

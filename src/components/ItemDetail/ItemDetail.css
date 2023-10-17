@@ -20,7 +20,11 @@
     mix-blend-mode: multiply;
 }
 
-.detalleProducto *{
+.detalleImagen,
+.detalleNombre,
+.detallePrecio,
+.detalleId,
+.detalleDescripcion{
     margin-bottom: 15px;
 }
 

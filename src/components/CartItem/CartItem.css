@@ -14,9 +14,15 @@
     padding: 30px;
 }
 
+.carrito img{
+    width: 80px;
+    height: 80px;
+    mix-blend-mode: multiply;
+}
+
 .carrito button{
     cursor: pointer;
-    background: #cfcecb;
+    background: #eaeaea;
     color: black;
     padding: 10px 20px;
     border-radius: 20px;
